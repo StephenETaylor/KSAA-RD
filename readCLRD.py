@@ -521,6 +521,8 @@ if __name__ == '__main__':
         main5()
     elif sys.argv[1] == '6':
         main6()
+    elif sys.argv[1] == '7':
+        main7()
     elif sys.argv[1] == '76':
         main7()
         main6()
