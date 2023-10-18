@@ -20,11 +20,17 @@ sub1s.zip:	output1s.json
 sub2s.zip:	output2s.json
 	zip sub2s.zip  output2s.json	
 
-output1s.json:	trainRD.py readCLRD.py
+output1s.json:	trainRD.py readCLRD.py marate.pickle
 	python3 trainRD.py 1 S
 
-output2s.json:	trainRD.py readCLRD.py
+output2s.json:	trainRD.py readCLRD.py marate.pickle 
 	python3 trainRD.py 2 S
+
+marate.pickle:	mara.pickle
+	python3 readCLRD.py 6
+
+mara.pickle:	readCLRD.py
+	python3 readCLRD.py 7
 
 graphs:	
 	gnuplot results.gnuplot
