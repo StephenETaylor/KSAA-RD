@@ -40,14 +40,15 @@ trainRD.py reads through the pickle files.  It defaults to
 
  >> python3 trainrd.py 2 e   \
 
- >>> read ar.test.json, each record of which contains an "id" and a "gloss" key.
+ >>> read ar.en.test.json, each record of which contains an "id" and a "gloss" key.
  >>> and produce output2e.json, each record of which  will contain an "id" and an "electra" key
 
      
  >> python3 trainrd.py 2 s   \
 
- >>> read ar.test.json, each record of which contains an "id" and a "gloss" key.
+ >>> read ar.en.test.json, each record of which contains an "id" and a "gloss" key.
  >>> and produce output2s.json, each record of which  will contain an "id" and an "SGNS" key
+
 
      
     
