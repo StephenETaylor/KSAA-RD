@@ -8,7 +8,7 @@ The training data provides:
 
  and 
 
->electra context embeddings, which depend upon the context of the word, and might not exactly correspond exactly to the sense.
+>electra context embeddings, which depend upon the context of the word, and might not correspond exactly to the sense, since each sense can be used in many different contexts.
 
 >> The data for the task is or will be posted on https://github.com/Waadtss/ArReverseDictionary 
 >> The baseline implementation and the scoring program for the task can also be
